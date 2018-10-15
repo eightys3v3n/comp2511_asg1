@@ -11,7 +11,7 @@
 </head>
 <body>
 	<header>
-		<h1><img src="images/logo.png" height="100" width="100" alt="Red solo cup logo" title="Cups'n'Stuff Logo"/>Cups'n'Stuff</h1>
+		<h1><a href="index.html"><img src="images/logo.png" height="100" width="100" alt="Red solo cup logo" title="Cups'n'Stuff Logo"/>Cups'n'Stuff</h1></a>
 
 		<nav>
 			<ol>
@@ -22,28 +22,32 @@
 			</ol>
 		</nav>
 	</header>
-	<article>
+	<div>
 		<h2>Contact us</h2>
 		<form action="mailto:tplun878@mtroyal.ca" method="get" autocomplete="yes">
-			<label>Contact email<font color="red">*</font>:
-				<input name="contact_email" type="email" required/>
-			</label><br/>
-			<label>Phone number:
-				<input name="phone" type="tel" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" placeholder="403-123-4567"/>
-			</label><br/>
+			<section>
+				<label>Contact email<font color="red">*</font>:
+					<input name="contact_email" type="email" required/>
+				</label><br/>
+				<label>Phone number:
+					<input name="phone" type="tel" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" placeholder="403-123-4567"/>
+				</label><br/>
+			</section>
 			<label>Date:
 				<input type="date" name="date"/>
 			</label><br/>
-			<label>Subject<font color="red">*</font>:
-				<input name="subject" type="text" maxlength="255" required/>
-			</label><br/>
-			<label>Body<font color="red">*</font>:
-				<input name="body" type="text" required/>
-			</label><br/>
+			<section id="email_content">
+				<label>Subject<font color="red">*</font>:
+					<input name="subject" type="text" maxlength="255" required/>
+				</label><br/>
+				<label>Body<font color="red">*</font>:
+					<input name="body" type="text" required/>
+				</label><br/>
+			</section>
 			<input type="reset" value="Reset"/>
 			<input type="submit" value="Submit"/>
 		</form>
-	</article>
+	</div>
 	<footer>
 		Written by <a href="mailto:tplun878@mtroyal.ca">Terrence</a> and Austin (2018).
 	</footer>
