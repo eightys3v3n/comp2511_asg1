@@ -3,15 +3,15 @@
 <head>
 	<!-- CHANGE THIS STUFF ONCE THE SITE IS WRITTEN -->
 	<meta charset="utf-8">
-	<meta name="keywords" content="solo cup, contact"> <!-- For search engines -->
-	<meta name="description" content="Contact the solo cup people.">
+	<meta name="keywords" content="solo cup, cupstuff, contact"> <!-- For search engines -->
+	<meta name="description" content="Contact Cupstuff">
 	<meta name="author" content="Terrence Plunkett">
 
-	<title>Solo Cup People</title>
+	<title>Cups'n'Stuff</title>
 </head>
 <body>
 	<header>
-		<img src="images/logo.png" height="100" width="100" alt="Red solo cup logo"/>
+		<h1><img src="images/logo.png" height="100" width="100" alt="Red solo cup logo" title="Cups'n'Stuff Logo"/>Cups'n'Stuff</h1>
 
 		<nav>
 			<ol>
@@ -22,6 +22,27 @@
 			</ol>
 		</nav>
 	</header>
-
+	<article>
+		<h2>Contact form</h2>
+		<form action="mailto:tplun878@mtroyal.ca" method="get" autocomplete="yes">
+			<label>Contact email<font color="red">*</font>:
+				<input name="contact_email" type="email" required/>
+			</label><br/>
+			<label>Phone number:
+				<input name="phone" type="tel" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" placeholder="403-123-4567"/>
+			</label><br/>
+			<label>Date:
+				<input type="date" name="date"/>
+			</label><br/>
+			<label>Subject<font color="red">*</font>:
+				<input name="subject" type="text" maxlength="255" required/>
+			</label><br/>
+			<label>Body<font color="red">*</font>:
+				<input name="body" type="text" required/>
+			</label><br/>
+			<input type="reset" value="Reset"/>
+			<input type="submit" value="Submit"/>
+		</form>
+	</article>
 </body>
 </html>
