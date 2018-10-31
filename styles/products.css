@@ -1,0 +1,21 @@
+header {
+	display: flex;
+    position: sticky;
+    z-index: 10;
+    top: 0px;
+    padding: 10px;
+/*    border: 2px solid black;*/
+    
+	align-items: center;
+	justify-content: space-between;
+    background-color: yellow;
+}
+
+footer {
+    position: sticky;
+    bottom: 0px;
+    z-index: 10;
+    padding: 0.5%;
+    text-align: center;
+    background-color: yellow
+}
