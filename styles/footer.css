@@ -1,0 +1,10 @@
+footer {
+    position: sticky;
+    bottom: 0px;
+    z-index: 10;
+    padding: 0.5%;
+    height: 5%;
+    width: 98%; /* This is broken, should be left as auto but assignment requires this*/
+    text-align: center;
+    background-color: yellow
+}

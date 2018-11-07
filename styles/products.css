@@ -1,15 +1,5 @@
-header {
-	display: flex;
-    position: sticky;
-    z-index: 10;
-    top: 0px;
-    padding: 10px;
-/*    border: 2px solid black;*/
-    
-	align-items: center;
-	justify-content: space-between;
-    background-color: yellow;
-}
+@import "header.css";
+@import "footer.css";
 
 #products {
     display: grid;
@@ -28,13 +18,3 @@ header {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
-
-footer {
-    position: sticky;
-    bottom: 0px;
-    z-index: 10;
-    padding: 0.5%;
-    text-align: center;
-    background-color: yellow
-}
-
