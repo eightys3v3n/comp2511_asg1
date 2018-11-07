@@ -1,49 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="keywords" content="solo cup, cups'n'stuff, contact"> <!-- For search engines -->
-	<meta name="description" content="Contact Cups'n'Stuff">
-	<meta name="author" content="Terrence Plunkett">
-    
-    <link rel="stylesheet" type="text/css" href="styles/contact.css">
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="solo cup, cups'n'stuff, contact"> <!-- For search engines -->
+        <meta name="description" content="Contact Cups'n'Stuff">
+        <meta name="author" content="Terrence Plunkett">
 
-	<title>Cups'n'Stuff - Contact</title>
-</head>
-<body>
-	<header>
-		<img src="images/logo.png" height="100" width="100" alt="Red solo cup logo" title="Cups'n'Stuff Logo"/>
+        <link rel="stylesheet" type="text/css" href="styles/contact.css">
 
-		<nav>
-			<a href="index.html"><span>Home</span></a>
-			<a href="products.html"><span>Products</span></a>
-			<a href="about.html"><span>About</span></a>
-			<a href="contact.html"><span>Contact</span></a>
-		</nav>
-	</header>	<div>
-		<h2>Contact us</h2>
-		<form action="mailto:tplun878@mtroyal.ca" method="get" autocomplete="on">
-			<label>Contact email*:
-				<input name="contact_email" type="email" required/>
-			</label><br/>
-			<label>Phone number:
-				<input name="phone" type="tel" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" placeholder="403-123-4567"/>
-			</label><br/>
-			<label>Date:
-				<input type="date" name="date"/>
-			</label><br/>
-			<label>Subject*:
-				<input name="subject" type="text" maxlength="255" required/>
-			</label><br/>
-			<label>Body*:
-				<input name="body" type="text" required/>
-			</label><br/>
-			<input type="reset" value="Reset"/>
-			<input type="submit" value="Submit"/>
-		</form>
-	</div>
-	<footer>
-		Written by <a href="mailto:tplun878@mtroyal.ca">Terrence</a> and <a href="mailto:asore931@mtroyal.ca">Austin</a> (2018).
-	</footer>
-</body>
+        <title>Cups'n'Stuff - Contact</title>
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.png" height="100" width="100" alt="Red solo cup logo" title="Cups'n'Stuff Logo"/>
+
+            <nav>
+                <a href="index.html"><span>Home</span></a>
+                <a href="products.html"><span>Products</span></a>
+                <a href="about.html"><span>About</span></a>
+                <a href="contact.html"><span>Contact</span></a>
+            </nav>
+        </header>
+        <div id="scrollable">
+            <div id="banner-background">
+                <div id="banner-foreground" class="grid-item">
+                    <h1>Cups'n'Stuff</h1>
+                </div>
+            </div>
+
+            <div id="content" class="grid-item">
+                <h2>Contact us</h2>
+                <form action="mailto:tplun878@mtroyal.ca" method="get" autocomplete="on">
+                    <label>Contact email*:</label>
+                    <input name="contact_email" type="email" required/>
+                    
+                    <label>Phone number:</label>
+                    <input name="phone" type="tel" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" placeholder="403-123-4567"/>
+                    
+                    <label>Date:</label>
+                    <input type="date" name="date"/>
+                    
+                    <label>Subject*:</label>
+                    <input name="subject" type="text" maxlength="255" required/>
+                    
+                    <label>Body*:</label>
+                    <input name="body" type="text" required/>
+                    
+                    <input type="reset" value="Reset"/>
+                    <input type="submit" value="Submit"/>
+                </form>
+            </div>
+            <aside class="grid-item">
+                <h2>Aside stuff</h2>
+            </aside>
+        </div>
+        <footer>
+            Written by <a href="mailto:tplun878@mtroyal.ca">Terrence</a> and <a href="mailto:asore931@mtroyal.ca">Austin</a> (2018).
+        </footer>
+    </body>
 </html>
