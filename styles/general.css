@@ -60,7 +60,7 @@ nav a span:hover {
 #banner-background {
 	grid-column-start: 1;
 	grid-column-end: span 2;
-	background-color: rgba(220, 60, 20, .8);
+	background-color: rgb(220, 20, 60);
     border: none;
 }
 
@@ -83,7 +83,7 @@ nav a span:hover {
 
 aside {
 	text-align: center;
-	background-color: rgba(0, 255, 0, .5);
+	background-color: rgba(255, 0, 0, .5);
 }
 
 #content h2 {
@@ -100,5 +100,5 @@ footer {
     height: 3%;
     width: 98%; /* This is broken, should be left as auto but assignment requires this*/
     text-align: center;
-    background-color: yellow
+    background-color: crimson 
 }

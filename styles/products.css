@@ -1,3 +1,7 @@
+#content p::first-letter {
+    color: black;
+    font-size: 150%;
+}
 .image-list img {
     display: inline;
     width: auto;
