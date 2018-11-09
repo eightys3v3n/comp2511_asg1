@@ -1,1 +1,4 @@
-@import "index.css";
+#content p::first-letter {
+    color: blue;
+    font-size: 110%;
+}
