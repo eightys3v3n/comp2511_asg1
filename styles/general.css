@@ -9,7 +9,7 @@ header {
     
 	align-items: center;
 	justify-content: space-between;
-    background-color: yellow;
+    background-image: url("../images/back.jpg");
 }
 
 img[src="images/logo.png"] {
@@ -60,7 +60,7 @@ nav a span:hover {
 #banner-background {
 	grid-column-start: 1;
 	grid-column-end: span 2;
-	background-color: rgba(0, 255, 255, .5);
+	background-color: rgba(220, 60, 20, .8);
     border: none;
 }
 
