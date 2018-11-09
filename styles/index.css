@@ -1,6 +1,73 @@
-img[title="Cups'n'Stuff Intext Logo"] {
-    float: right;
-    width: 100px;
-    height: auto;
+header {
+	display: flex;
+    position: sticky;
+    z-index: 10;
+    top: 0px;
+    padding: 10px;
+    height: 10%;
+    width: 98%; /* This is broken, should leave as auto but assignment requires. */
+    
+	align-items: center;
+	justify-content: space-between;
+    background-image: url("../images/back.jpg");
+}
+
+nav a span {
+    padding: 8px;
+    border: 2px solid black;
+    background-color: aqua;
+}
+
+#scrollable {
+	display: grid;
+	padding: 0.5%;
+	border: 2px solid black;
+	grid-template-columns: 70% auto;
+	grid-template-rows: auto auto;
+}
+
+#banner-background {
+	grid-column-start: 1;
+	grid-column-end: span 2;
+	background-color: rgb(220, 20, 60);
+    border: black;
+}
+
+#banner-foreground {
 	border: 0;
+	text-align: center;
+	height: 100%;
+}
+
+#content {
+	background-color: rgba(255, 0, 0, .5);
+}
+
+.grid-item {
+	position: relative;
+	padding: 1%;
+	margin: 4px;
+	border: 2px solid black;
+}
+
+aside {
+	text-align: center;
+	background-color: rgba(0, 255, 0, .5);
+}
+
+#content h2 {
+	text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0px;
+    padding: 0.5%;
+    height: 3%;
+    width: 98%; /* This is broken, should be left as auto but assignment requires this*/
+    text-align: center;
+    background-color: crimson
 }
