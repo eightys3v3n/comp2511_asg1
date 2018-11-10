@@ -60,13 +60,14 @@ nav a span:hover {
 #banner-background {
 	grid-column-start: 1;
 	grid-column-end: span 2;
-	background-image: url("../images/back.jpg")
+	background-image: url("../images/banner3.png");
     border: none;
 }
 
 #banner-foreground {
 	border: 0;
 	text-align: center;
+    color: rgba(0,0,0,0.7);
 	height: 100%;
 }
 
