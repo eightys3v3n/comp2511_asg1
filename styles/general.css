@@ -60,7 +60,7 @@ nav a span:hover {
 #banner-background {
 	grid-column-start: 1;
 	grid-column-end: span 2;
-	background-color: rgb(220, 20, 60);
+	background-image: url("../images/back.jpg")
     border: none;
 }
 
@@ -90,6 +90,9 @@ aside {
 	text-align: center;
 }
 
+a:hover{
+    /* This is a test pseudo class*/
+}
 footer {
     display: flex;
     justify-content: center;
